@@ -1,7 +1,7 @@
 event figure_curveiso (t = 0.1; t <= MAXTIME; t += 0.1)
 {
   view (camera = "iso", fov = 3, quat = {0,0,0,1}, tx = -0.015, ty = -0.34, tz= -0.110, bg = {1,1,1}, width = 1080, height = 1920, samples = 4);
-
+  
  
   scalar kappa[], kappa1[];
   curvature(f,kappa);
